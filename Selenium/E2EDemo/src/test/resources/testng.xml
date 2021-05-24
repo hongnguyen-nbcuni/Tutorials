@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!-- <listeners> <listener class-name="Academy.Listeners"/> </listeners> -->
+
+	<!-- Enter group name to execute specific set of tests -->
+	<!-- 
+	<groups>
+		<run>
+			<include name="smoke" />
+			<exclude name="disabled" />
+		</run>
+	</groups>
+	-->
+
+	<test name="all tests">
+		<packages>
+			<package name="com.nbcuni.test.tl.practice" />
+			<!-- <package name="com.nbcuni.test.tl.practice.*" /> -->
+		</packages>
+	</test>
+
+	<!-- <test name="Validating Translator Landning Page"> <classes> <class 
+		name="com.nbcuni.test.tl.practice.TranslatorLandingPage" /> </classes> </test> 
+		<test name="Validating TL Supply Home Page"> <classes> <class name="com.nbcuni.test.tl.practice.TLSupplyHomePage" 
+		/> </classes> </test> -->
+
+</suite> <!-- Suite -->
